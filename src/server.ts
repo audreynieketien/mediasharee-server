@@ -6,7 +6,7 @@ import { connectDatabase } from './config/database';
 import { config } from './config';
 import { errorHandler } from './middleware/errorHandler';
 
-// Import routes
+
 import authRoutes from './routes/auth';
 import mediaRoutes from './routes/media';
 import feedRoutes from './routes/feed';
